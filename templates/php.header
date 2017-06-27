@@ -1,0 +1,9 @@
+<pre class='php'>
+require('<a href="index.html">codereddit.php</a>');
+require('<a href="readme.html">readme.php</a>');
+require('<a href="javascript:makeEditable();">edit_mode.php</a>');
+$location = "${location}";
+$language = "<a href="javascript:changeLanguage();">php</a>";
+$style = "<a href="javascript:changeStyle();">toggle style</a>";
+
+</pre>

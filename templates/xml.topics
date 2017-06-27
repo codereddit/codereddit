@@ -1,0 +1,22 @@
+<pre class='xml'>
+
+&lt;topic&gt;
+	&lt;title&gt;<a href='${url}' class="${fancybox}" title="${fulltitle}">${title}</a>&lt;/title&gt;
+	&lt;score&gt;${score}&lt;/score&gt;
+	&lt;sub&gt;<a href='?sub=${subreddit}'>${subreddit}</a>&lt;/sub&gt;
+	&lt;selftext&gt;${selftext}&lt;/selftext&gt;
+	&lt;author&gt;${author}&lt;/author&gt;
+	&lt;fulltitle&gt;${fulltitle}&lt;/fulltitle&gt;
+	&lt;url&gt;<a href='${url}'>${url}</a>&lt;/url&gt;
+	
+	&lt;!-- Jump to comment page --&gt;
+	<a href='?topic=${short_id}'>&lt;call-template name="load-comments"&gt;</a>
+		&lt;with-param name="num-comments" select="${num_comments}"&gt;
+	&lt;/call-template&gt;
+	
+	&lt;!-- Or load inline --&gt;
+	<a href='javascript:void(0);' class="expander" id="${entry_id}">&lt;xsl:for-each select="comment"&gt;</a>
+	<pre class="comments"></pre>
+	&lt;/xsl:for-each&gt;
+&lt;/topic&gt;
+</pre>

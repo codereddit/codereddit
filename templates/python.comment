@@ -1,0 +1,4 @@
+${indent}score = ${score}
+${indent}author = "${commenter}"
+${indent}${text}
+

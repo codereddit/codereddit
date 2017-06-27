@@ -1,0 +1,2 @@
+${indent}int score = ${score}; string author = "${commenter}";
+${indent}${text}

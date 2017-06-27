@@ -1,0 +1,9 @@
+<pre class='csharp'>
+using <a href="index.html">Code.Reddit</a>;
+using <a href="readme.html">Read.Me</a>;
+using <a href="javascript:makeEditable();">Edit.Mode</a>;
+string location = "${location}";
+string language = "<a href="javascript:changeLanguage();">csharp</a>";
+string style = "<a href="javascript:changeStyle();">toggle style</a>";
+
+</pre>

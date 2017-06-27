@@ -1,0 +1,18 @@
+<pre class='xml'>
+
+&lt;topic&gt;
+	&lt;title&gt;<a href='${url}' class="${fancybox}" title="${fulltitle}">${title}</a>&lt;/title&gt;
+	&lt;score&gt;${score}&lt;/score&gt;
+	&lt;sub&gt;<a href='?sub=${subreddit}'>${subreddit}</a>&lt;/sub&gt;
+	&lt;![CDATA[
+		${selftext}
+	]]&gt;	
+	&lt;author&gt;${author}&lt;/author&gt;
+	&lt;fulltitle&gt;${fulltitle}&lt;/fulltitle&gt;
+	&lt;url&gt;<a href='${url}'>${url}</a>&lt;/url&gt;
+	
+	<span class="expander" id="${entry_id}">&lt;xsl:for-each select="comment"&gt;</span>
+${comments}
+	&lt;/xsl:for-each&gt;
+&lt;/topic&gt;
+</pre>

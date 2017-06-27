@@ -1,0 +1,9 @@
+<pre class='python'>
+import '<a href="index.html">codereddit.py</a>'
+import '<a href="readme.html">readme.py</a>'
+import '<a href="javascript:makeEditable();">edit_mode.py</a>'
+location = "${location}"
+language = "<a href="javascript:changeLanguage();">python</a>"
+style = "<a href="javascript:changeStyle();">toggle style</a>"
+
+</pre>

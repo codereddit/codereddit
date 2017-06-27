@@ -1,0 +1,14 @@
+<pre class='php'>
+
+function <a href='${url}' class="${fancybox}" title="${fulltitle}">${title}</a>($score=${score}, $sub=<a href='?sub=${subreddit}'>${subreddit}</a>){
+	${selftext}
+	
+	$author = "${author}";
+	$full_title = "${fulltitle}";
+	$link_to = "<a href='${url}'>${url}</a>";
+	
+	<span class="expander" id="${entry_id}">for($num_comments = 0; $num_comments <= ${num_comments}; $num_comments++){</span>
+${comments}
+	}
+}
+</pre>

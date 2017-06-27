@@ -1,0 +1,2 @@
+${indent}$score = ${score}; $author = "${commenter}";
+${indent}${text}

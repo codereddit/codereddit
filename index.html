@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/jquery.snippet.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<!-- <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" type="text/css" media="screen" /> -->
+		<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+		<!-- <script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script> -->
+		<script type="text/javascript" src="js/jquery.snippet.js"></script>
+		<script type="text/javascript" src="js/jquery.ba-bbq.min.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>        
+		<script type="text/javascript" src="js/Markdown.Converter.js"></script>
+        <!--
+		<script type="text/javascript" src="js/Markdown.Sanitizer.js"></script>
+        <script type="text/javascript" src="js/Markdown.Editor.js"></script>
+		-->
+		<script type="text/javascript" src="js/codereddit.js"></script>
+		
+		<title>Budget Meeting Agenda</title>
+	</head>
+	<body>
+	<script type="text/javascript"><!--
+	google_ad_client = "ca-pub-1549281131661641";
+	google_ad_slot = "3641274894";
+	google_ad_width = 234;
+	google_ad_height = 60;
+	//-->
+	</script>
+	
+	<script type="text/javascript"
+	src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-42582598-1', 'codereddit.com');
+	  ga('send', 'pageview');
+	</script>
+	
+	</body>
+</html>

@@ -1,0 +1,10 @@
+<pre class='xml'>
+&lt;?xml version="1.0"?&gt;
+&lt;!ENTITY <a href="index.html">CodeReddit</a> SYSTEM "<a href="index.html">CodeReddit.xml</a>"&gt;
+&lt;!ENTITY <a href="readme.html">ReadMe</a> SYSTEM "<a href="readme.html">ReadMe.xml</a>"&gt;
+&lt;!ENTITY <a href="javascript:makeEditable();">EditMode</a> SYSTEM "<a href="javascript:makeEditable();">EditMode.xml</a>"&gt;
+&lt;location>${location}&lt;/location&gt;
+&lt;language><a href="javascript:changeLanguage();">xml</a>&lt;/language&gt;
+&lt;style><a href="javascript:changeStyle();">toggle style</a>&lt;/style&gt;
+
+</pre>

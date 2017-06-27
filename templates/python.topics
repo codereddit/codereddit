@@ -1,0 +1,16 @@
+<pre class='python'>
+
+def <a href='${url}' class="${fancybox}" title="${fulltitle}">${title}</a>(score=${score}, sub=<a href='?sub=${subreddit}'>${subreddit}</a>):
+	${selftext}
+	
+	author = "${author}"
+	full_title = "${fulltitle}"
+	link_to = "<a href='${url}'>${url}</a>"
+	
+	#Jump to comment page
+	<a href='?topic=${short_id}'>LoadComments(${num_comments})</a>
+	
+	#Or load inline
+	<a href='javascript:void(0);' class="expander" id="${entry_id}">for comment in range(0,${num_comments}):</a>
+	<pre class="comments"></pre>
+</pre>

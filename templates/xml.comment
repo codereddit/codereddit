@@ -1,0 +1,7 @@
+${indent}<comment>
+${indent}<score>${score}<score>
+${indent}<commenter>${commenter}<commenter>
+${indent}<value><![CDATA[
+${indent}${text}
+${indent}]]></value>
+${indent}</comment>

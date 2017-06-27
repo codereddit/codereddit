@@ -1,0 +1,18 @@
+<pre class='csharp'>
+
+public void <a href='${url}' class="${fancybox}" title="${fulltitle}">${title}</a>(int score=${score}, string sub=<a href='?sub=${subreddit}'>${subreddit}</a>){
+	${selftext}
+	
+	string author = "${author}";
+	string full_title = "${fulltitle}";
+	string link_to = "<a href='${url}'>${url}</a>";
+	
+	//Jump to comment page
+	<a href='?topic=${short_id}'>LoadComments(${num_comments});</a>
+	
+	//Or load inline
+	<a href='javascript:void(0);' class="expander" id="${entry_id}">for(int num_comments = 0; num_comments <= ${num_comments}; num_comments++){</a>
+	<pre class="comments"></pre>
+	}
+}
+</pre>
